@@ -1,0 +1,84 @@
+:root {
+    --primary-color:#a5296d;
+    --text-color:#000000;
+    --background-light:#ffffff;
+    --header-height:100vh;
+}
+*,*::before,*::after{
+    box-sizing:border-box;
+}
+html{
+    font-size: 110%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans',
+    Helvetica,sans-serif;
+    color: #080909;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+.header-background{
+    background: linear-gradient(rgba(253, 200, 204, 0.875),rgba(243, 189, 191, 0.9)),
+    url("https://i.imgur.com/ral1q9y.jpeg")
+    center center fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: rgba(30, 30, 30, 0.5);
+padding: 15px 0;
+}
+
+nav ul {
+list-style: none;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+}
+
+nav ul li {
+display: inline;
+margin: 0 10px;
+}
+
+nav ul li a{
+    color: rgb(227, 226, 226);
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    font-size: 1.2rem;
+}
+.header-content img{
+   max-width: 250px;
+   border-radius: 50%; 
+}
+.header-content h1, .header-content p{
+    margin: 0.5rem 0;
+    font-family: 'Unica One',cursive;
+}
+
+#about {
+background-color: #d2a6a7; 
+padding-left: 40px;
+padding-right: 40px;
+margin: 40px;
+border-radius: 0.5%;
+text-align: center;
+}
+
+.profile-photo {
+max-width: 40%;
+height: auto; 
+border-radius: 50%; 
+}
